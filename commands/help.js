@@ -17,8 +17,8 @@ module.exports = {
             .addField('.tempban : banni temporairement un membre',true)
             .addField('.clear : supprime le nombre de messages demandé',true)
             .addField('.tempmute : rend muet temporairement le membre mentionné',true)
-            .setAuthor('Commandes de Luminarity')
-            .setFooter('Luminarity')
+            .setAuthor('Commandes de Zelron')
+            .setFooter('Zelron')
             .setTimestamp())
     },
     name: 'help'
