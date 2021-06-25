@@ -27,7 +27,7 @@ client.on('ready', () => {
         () => `${client.guilds.cache.size} serveurs`,
         () => `${client.guilds.cache.reduce((acc, guild) => acc + guild.memberCount, 0)} utilisateurs`,
         () => `type *help for more info`,
-        () => `Version : 1.0`,
+        () => `Version : 1.0.1`,
     ]
     let i = 0
     setInterval(() => {
