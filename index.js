@@ -26,7 +26,7 @@ client.on('ready', () => {
     const statuses = [
         () => `${client.guilds.cache.size} serveurs`,
         () => `${client.guilds.cache.reduce((acc, guild) => acc + guild.memberCount, 0)} utilisateurs`,
-        () => `type .help`,
+        () => `type *help for more info`,
         () => `Version : 1.0`,
     ]
     let i = 0
