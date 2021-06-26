@@ -17,6 +17,7 @@ module.exports = {
             .addField('*tempban : banni temporairement un membre',true)
             .addField('*clear : supprime le nombre de messages demandé',true)
             .addField('*tempmute : rend muet temporairement le membre mentionné',true)
+            .addField('*support : donne le lien du serveur support',true)
             .setAuthor('Commandes de Zelron')
             .setFooter('Zelron')
             .setTimestamp())
