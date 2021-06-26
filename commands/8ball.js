@@ -1,5 +1,5 @@
 const Discord = require('discord.js'),
-    replies = ['Oui', 'Non', 'Peut être', 'Evidemment']
+    replies = ['Oui', 'Non', 'Peut être', 'Evidemment', 'Je ne sais pas', 'Probablement', 'Probablement pas', 'Certain', 'Bien-sur !']
  
 module.exports = {
     run: (message, args) => {
