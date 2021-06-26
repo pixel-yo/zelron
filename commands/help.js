@@ -18,6 +18,7 @@ module.exports = {
             .addField('*clear : supprime le nombre de messages demandé',true)
             .addField('*tempmute : rend muet temporairement le membre mentionné',true)
             .addField('*support : donne le lien du serveur support',true)
+            .addField('*8ball : pose une question à la boule magique',true)
             .setAuthor('Commandes de Zelron')
             .setFooter('Zelron')
             .setTimestamp())
