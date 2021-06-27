@@ -9,6 +9,10 @@ client.login(process.env.TOKEN)
 client.commands = new Discord.Collection()
 client.db = require('./db.json')
 
+client.once('ready', () => {
+    console.log('Ready!')
+})
+
 fs.readdir('./commands', (err, files) => {
     if (err) throw err
     files.forEach(file => {
@@ -16,10 +20,6 @@ fs.readdir('./commands', (err, files) => {
         const command = require(`./commands/${file}`)
         client.commands.set(command.name, command)
     })
-})
- 
-client.once('ready', () => {
-    console.log('Ready!')
 })
 
 client.on('ready', () => {
