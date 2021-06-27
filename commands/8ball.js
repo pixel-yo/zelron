@@ -7,6 +7,7 @@ module.exports = {
         if (!question) return message.channel.send('Veuillez indiquer une question.')
         message.channel.send(new Discord.MessageEmbed()
             .setTitle(question)
+            .setColor('RANDOM')
             .setDescription(replies[Math.floor(Math.random() * replies.length)]))
     },
     name: '8ball'
