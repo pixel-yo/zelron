@@ -9,5 +9,5 @@ module.exports = {
             .setFooter("Si vous avez un quelconque problème avec le lien, veuillez faire la commande *support")
             .setTimestamp())
     },
-    name: 'help'
+    name: 'invite'
 }
