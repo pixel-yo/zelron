@@ -9,5 +9,5 @@ module.exports = {
             .setFooter('Zelron')
             .setTimestamp())
     },
-    name: 'help'
+    name: 'reverse'
 }
