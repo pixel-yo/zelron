@@ -6,7 +6,7 @@ module.exports = {
         const question = args.join(' ')
         if (!question) return message.channel.send('Veuillez mentionner un membre')
         message.channel.send(new Discord.MessageEmbed()
-            .setTitle(question)
+            .setTitle(note)
             .setColor('RANDOM')
             .setDescription(replies[Math.floor(Math.random() * replies.length)]))
     },
