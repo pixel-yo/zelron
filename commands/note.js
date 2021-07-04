@@ -10,5 +10,5 @@ module.exports = {
             .setColor('RANDOM')
             .setDescription(replies[Math.floor(Math.random() * replies.length)]))
     },
-    name: 'note'
+    name: 'notes'
 }
