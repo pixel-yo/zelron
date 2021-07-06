@@ -8,5 +8,5 @@ module.exports = {
             .setColor('RANDOM')
             .setTimestamp()
     },
-    name: 'embed'
+    name: 'nitro'
 }
